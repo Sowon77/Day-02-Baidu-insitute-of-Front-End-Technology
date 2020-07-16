@@ -1,0 +1,55 @@
+HTML 标题（Heading）是通过 <h1> - <h6> 等标签进行定义的。
+HTML 段落是通过 <p> 标签进行定义的。
+
+HTML 链接是通过 <a> 标签进行定义的。
+实例
+<a href="http://www.w3school.com.cn">This is a link</a>
+
+HTML 图像是通过 <img> 标签进行定义的。
+实例
+<img src="w3school.jpg" width="104" height="142" />
+
+空元素
+<br> 就是没有关闭标签的空元素（<br> 标签定义换行）。
+即使 <br> 在所有浏览器中都是有效的，但使用 <br /> 其实是更长远的保障。
+
+分割线<hr />
+
+应该避免使用下面这些标签和属性：
+1.标签
+<center>定义居中的内容。
+<font> 和 <basefont>定义 HTML 字体。
+<s> 和 <strike>定义删除线文本
+<u>定义下划线文本
+2.属性
+align定义文本的对齐方式
+bgcolor定义背景颜色
+color定义文本颜色
+对于以上这些标签和属性：请使用样式代替！
+
+background-color 属性为元素定义了背景颜色
+<body style="background-color:yellow">
+style 属性淘汰了“旧的” bgcolor 属性。
+而旧的<body bgcolor="yellow">
+
+font-family、color 以及 font-size 属性分别定义元素中文本的字体系列、颜色和字体尺寸
+<p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
+style 属性淘汰了旧的 <font> 标签。
+而旧的<p><font size="5" face="arial" color="red">A paragraph.</font></p>
+
+text-align 属性规定了元素中文本的水平对齐方式
+<h1 style="text-align:center">This is a heading</h1>
+style 属性淘汰了旧的 "align" 属性。
+而旧的<h1 align="center">This is heading 1</h1>
+
+当前的 HTML/XHTML 标准一共提供了 9 种物理样式，包括粗体（bold）、斜体（italic）、等宽（monospaced）、下划线（underlined）、
+删除线（strikethrough）、放大（larger）、缩小（smaller）、上标（superscripted）和下标（subscripted）文本。这些标签是：
+<b>
+<big>
+<i>
+<s>
+<small>
+<strike>
+<sub>
+<sup>
+<tt>
